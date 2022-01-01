@@ -1,0 +1,10 @@
+get http://localhost:5000/attendance/hh
+Content-Type: application/json
+
+{
+     "Students":"986587",
+    "Session":"213213"
+ 
+
+
+}
