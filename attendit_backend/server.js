@@ -29,7 +29,7 @@ app.use(express.json())
 
 app.get("/", (req, res) => {
   res.setHeader("Content-type", "application/json")
-  ; res.json({ message: "Welcome to bezkoder application." })
+  ; res.json({ message: "Welcome to attendit application." })
 });
 const hostname = "localhost";
 const port = process.env.PORT;
